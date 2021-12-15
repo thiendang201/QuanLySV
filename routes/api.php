@@ -22,3 +22,5 @@ Route::get('khoa', 'KhoaController@index');
 Route::get('nganh', 'NganhController@index');
 Route::get('lop', 'LopController@index');
 Route::get('sinhvien', 'SinhVienController@index');
+
+Route::post('lop/sinhvien', 'SinhVienController@getStudentsByClassId');

@@ -14,7 +14,7 @@ class CreateSinhViensTable extends Migration
     public function up()
     {
         Schema::create('sinh_viens', function (Blueprint $table) {
-            $table->char("id", 12)->primary();
+            $table->char("id", 13)->primary();
             $table->string('hoTen');
             $table->tinyInteger('gioiTinh');
             $table->date('ngaySinh');
