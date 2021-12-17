@@ -23,4 +23,5 @@ Route::get('nganh', 'NganhController@index');
 Route::get('lop', 'LopController@index');
 Route::get('sinhvien', 'SinhVienController@index');
 
+Route::post('admin/login', 'AdminController@login');
 Route::post('lop/sinhvien', 'SinhVienController@getStudentsByClassId');
